@@ -76,17 +76,17 @@ body {
   border-radius: 5px;
 }
 .left {
-  border-bottom: 4px solid red;
+  border-bottom: 4px solid #3753E8;
   transform: rotate(-25deg);
 }
 .right {
-  border-bottom: 5px solid blue;
+  border-bottom: 5px solid #0CB1E8;
   transform: rotate(25deg);
 }
 
 .logo {
-  border-left: 5px solid blue;
-  border-bottom: 5px solid darkgreen;
+  border-left: 5px solid #0CB1E8;
+  border-bottom: 5px solid #006400;
   height: 6em;
   width:15em;
   border-radius:5px;
