@@ -2,11 +2,13 @@ extends layout
 
 block content
   .row
-    .col-xs-6.col-xs-offset-3
-      div
-         div(style="background-image:url('/images/logo.png')", alt="Rent St. Pete")
-      br
-      br
+    .col-xs-12.flex-container
+      .logo
+        .roof-container
+          .left.roof
+          .right.roof
+        .words
+          .logo-text Rent St. Pete
   .row
     .col-xs-10.col-xs-offset-1
       .row
