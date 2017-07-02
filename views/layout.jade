@@ -1,14 +1,131 @@
 doctype html
 html
   head
-    title= title
-    meta(name='viewport', content='width=device-width, initial-scale=1')
-    link(rel='stylesheet', href='/stylesheets/style.css')
-    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
-    link(href="https://fonts.googleapis.com/css?family=Dosis", rel="stylesheet")
+    meta(charset='utf-8')
+    title Rent St Pete
+    meta(content='width=device-width, initial-scale=1.0', name='viewport')
+    meta(content='', name='keywords')
+    meta(content='', name='description')
+    // Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph
+    meta(property='og:title', content='')
+    meta(property='og:image', content='')
+    meta(property='og:url', content='')
+    meta(property='og:site_name', content='')
+    meta(property='og:description', content='')
+    // Twitter Cards integration: https://dev.twitter.com/cards/
+    meta(name='twitter:card', content='summary')
+    meta(name='twitter:site', content='')
+    meta(name='twitter:title', content='')
+    meta(name='twitter:description', content='')
+    meta(name='twitter:image', content='')
+    // Place your favicon.ico and apple-touch-icon.png in the template root directory
+    link(href='favicon.ico', rel='shortcut icon')
+    // Google Fonts
+    link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800', rel='stylesheet')
+    // Bootstrap CSS File
+    link(href='lib/bootstrap/css/bootstrap.min.css', rel='stylesheet')
+    // Libraries CSS Files
+    link(href='lib/font-awesome/css/font-awesome.min.css', rel='stylesheet')
+    link(href='lib/animate-css/animate.min.css', rel='stylesheet')
+    // Main Stylesheet File
+    link(href='css/style.css', rel='stylesheet')
+    //
+      =======================================================
+      Theme Name: Imperial
+      Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
+      Author: BootstrapMade.com
+      Author URL: https://bootstrapmade.com
+      =======================================================
+
   body
-    block content
-    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
-    script(src="/javascripts/bootstrap.min.js")
+    #preloader
+    //
+      ==========================
+      Hero Section
+      ============================
+    section#hero
+      .hero-container
+        .wow.fadeIn
+          .hero-logo
+          h1 Welcome to St Pete.Lease
+          h2
+            | Find your next 
+            span.rotating apartment, condo, home
+          .actions
+            a.btn-get-started(href='/listing') Get Strated
+            a.btn-services(href="#about") Our Story
+    //
+      ==========================
+      Header Section
+      ============================
+    header#header
+      .container
+        #logo.pull-left
+          a(href='#hero')
+          // Uncomment below if you prefer to use a text image
+          <h1><a href="#hero">St Pete.Lease</a></h1>
+        nav#nav-menu-container
+          ul.nav-menu
+            li.menu-active
+              a(href='/listings') Listings
+       
+    //
+      ==========================
+      About Section
+      ============================
+    section#about
+      .container.wow.fadeInUp
+        .row
+          .col-md-12
+            h3.section-title Tired of apartment hunting?
+            .section-title-divider
+            p.section-description
+              | We were too. We created St Pete.Lease to help make that search easier.
+      .container.about-container.wow.fadeInUp
+        .row
+          .col-md-6.col-md-push-6.about-content
+            h2.about-title We find locations so you don't have to.
+            p.about-text
+              | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            p.about-text
+              | Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            p.about-text
+              | Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+    //
+      ==========================
+      Footer
+      ============================
+    footer#footer
+      .container
+        .row
+          .col-md-12
+            .copyright
+              | © Copyright 
+              strong Imperial Theme
+              | . All Rights Reserved
+            .credits
+              //
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Imperial
+              | Bootstrap Themes by 
+              a(href='https://bootstrapmade.com/') BootstrapMade
+    // #footer
+    a.back-to-top(href='#')
+      i.fa.fa-chevron-up
+    // Required JavaScript Libraries
+    script(src='lib/jquery/jquery.min.js')
+    script(src='lib/bootstrap/js/bootstrap.min.js')
+    script(src='lib/superfish/hoverIntent.js')
+    script(src='lib/superfish/superfish.min.js')
+    script(src='lib/morphext/morphext.min.js')
+    script(src='lib/wow/wow.min.js')
+    script(src='lib/stickyjs/sticky.js')
+    script(src='lib/easing/easing.js')
+    // Template Specisifc Custom Javascript File
+    script(src='js/custom.js')
+    script(src='contactform/contactform.js')
+
     
     

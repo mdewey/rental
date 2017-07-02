@@ -1,0 +1,448 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Rent St Pete
+    meta(content='width=device-width, initial-scale=1.0', name='viewport')
+    meta(content='', name='keywords')
+    meta(content='', name='description')
+    // Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph
+    meta(property='og:title', content='')
+    meta(property='og:image', content='')
+    meta(property='og:url', content='')
+    meta(property='og:site_name', content='')
+    meta(property='og:description', content='')
+    // Twitter Cards integration: https://dev.twitter.com/cards/
+    meta(name='twitter:card', content='summary')
+    meta(name='twitter:site', content='')
+    meta(name='twitter:title', content='')
+    meta(name='twitter:description', content='')
+    meta(name='twitter:image', content='')
+    // Place your favicon.ico and apple-touch-icon.png in the template root directory
+    link(href='favicon.ico', rel='shortcut icon')
+    // Google Fonts
+    link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800', rel='stylesheet')
+    // Bootstrap CSS File
+    link(href='lib/bootstrap/css/bootstrap.min.css', rel='stylesheet')
+    // Libraries CSS Files
+    link(href='lib/font-awesome/css/font-awesome.min.css', rel='stylesheet')
+    link(href='lib/animate-css/animate.min.css', rel='stylesheet')
+    // Main Stylesheet File
+    link(href='css/style.css', rel='stylesheet')
+    //
+      =======================================================
+      Theme Name: Imperial
+      Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
+      Author: BootstrapMade.com
+      Author URL: https://bootstrapmade.com
+      =======================================================
+
+  body
+    #preloader
+    //
+      ==========================
+      Hero Section
+      ============================
+    section#hero
+      .hero-container
+        .wow.fadeIn
+          .hero-logo
+          h1 Welcome to St Pete.Lease
+          h2
+            | Find your next 
+            span.rotating apartment, condo, home
+          .actions
+            a.btn-get-started(href='#listing') Get Strated
+    //
+      ==========================
+      Header Section
+      ============================
+    header#header
+      .container
+        #logo.pull-left
+          a(href='#hero')
+            img(src='img/logo.png', alt='', title='')
+          // Uncomment below if you prefer to use a text image
+          // <h1><a href="#hero">Header 1</a></h1>
+        nav#nav-menu-container
+          ul.nav-menu
+            li.menu-active
+              a(href='#hero') Home
+            li
+              a(href='#about') About Us
+            li
+              a(href='#services') Services
+            li
+              a(href='#portfolio') Portfolio
+            li
+              a(href='#testimonials') Testimonials
+            li
+              a(href='#team') Team
+            li.menu-has-children
+              a(href='') Drop Down
+              ul
+                li
+                  a(href='#') Drop Down 1
+                li.menu-has-children
+                  a(href='#') Drop Down 2
+                  ul
+                    li
+                      a(href='#') Deep Drop Down 1
+                    li
+                      a(href='#') Deep Drop Down 2
+                    li
+                      a(href='#') Deep Drop Down 3
+                    li
+                      a(href='#') Deep Drop Down 4
+                    li
+                      a(href='#') Deep Drop Down 5
+                li
+                  a(href='#') Drop Down 3
+                li
+                  a(href='#') Drop Down 4
+                li
+                  a(href='#') Drop Down 5
+            li
+              a(href='#contact') Contact Us
+        // #nav-menu-container
+    // #header
+    //
+      ==========================
+      About Section
+      ============================
+    section#about
+      .container.wow.fadeInUp
+        .row
+          .col-md-12
+            h3.section-title About Us
+            .section-title-divider
+            p.section-description
+              | Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam
+      .container.about-container.wow.fadeInUp
+        .row
+          .col-md-6.col-md-push-6.about-content
+            h2.about-title We provide great services and ideass
+            p.about-text
+              | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            p.about-text
+              | Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            p.about-text
+              | Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+    //
+      ==========================
+      Services Section
+      ============================
+    section#services
+      .container.wow.fadeInUp
+        .row
+          .col-md-12
+            h3.section-title Our Services
+            .section-title-divider
+            p.section-description
+              | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+        .row
+          .col-md-4.service-item
+            .service-icon
+              i.fa.fa-desktop
+            h4.service-title
+              a(href='') Lorem Ipsum
+            p.service-description
+              | Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
+          .col-md-4.service-item
+            .service-icon
+              i.fa.fa-bar-chart
+            h4.service-title
+              a(href='') Dolor Sitema
+            p.service-description
+              | Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata
+          .col-md-4.service-item
+            .service-icon
+              i.fa.fa-paper-plane
+            h4.service-title
+              a(href='') Sed ut perspiciatis
+            p.service-description
+              | Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+          .col-md-4.service-item
+            .service-icon
+              i.fa.fa-photo
+            h4.service-title
+              a(href='') Magni Dolores
+            p.service-description
+              | Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+          .col-md-4.service-item
+            .service-icon
+              i.fa.fa-road
+            h4.service-title
+              a(href='') Nemo Enim
+            p.service-description
+              | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
+          .col-md-4.service-item
+            .service-icon
+              i.fa.fa-shopping-bag
+            h4.service-title
+              a(href='') Eiusmod Tempor
+            p.service-description
+              | Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi
+    //
+      ==========================
+      Subscrbe Section
+      ============================
+    section#subscribe
+      .container.wow.fadeInUp
+        .row
+          .col-md-8
+            h3.subscribe-title Subscribe For Updates
+            p.subscribe-text
+              | Join our 1000+ subscribers and get access to the latest tools, freebies, product announcements and much more!
+          .col-md-4.subscribe-btn-container
+            a.subscribe-btn(href='#') Subscribe Now
+    //
+      ==========================
+      Porfolio Section
+      ============================
+    section#portfolio
+      .container.wow.fadeInUp
+        .row
+          .col-md-12
+            h3.section-title Portfolio
+            .section-title-divider
+            p.section-description
+              | Si stante, hoc natura videlicet vult, salvam esse se, quod concedimus ses haec dicturum fuisse
+        .row
+          .col-md-3
+            a.portfolio-item(style='background-image: url(img/portfolio-1.jpg);', href='')
+              .details
+                h4 Portfolio 1
+                span Alored dono par
+          .col-md-3
+            a.portfolio-item(style='background-image: url(img/portfolio-2.jpg);', href='')
+              .details
+                h4 Portfolio 2
+                span Alored dono par
+          .col-md-3
+            a.portfolio-item(style='background-image: url(img/portfolio-3.jpg);', href='')
+              .details
+                h4 Portfolio 3
+                span Alored dono par
+          .col-md-3
+            a.portfolio-item(style='background-image: url(img/portfolio-4.jpg);', href='')
+              .details
+                h4 Portfolio 4
+                span Alored dono par
+          .col-md-3
+            a.portfolio-item(style='background-image: url(img/portfolio-5.jpg);', href='')
+              .details
+                h4 Portfolio 5
+                span Alored dono par
+          .col-md-3
+            a.portfolio-item(style='background-image: url(img/portfolio-6.jpg);', href='')
+              .details
+                h4 Portfolio 6
+                span Alored dono par
+          .col-md-3
+            a.portfolio-item(style='background-image: url(img/portfolio-7.jpg);', href='')
+              .details
+                h4 Portfolio 7
+                span Alored dono par
+          .col-md-3
+            a.portfolio-item(style='background-image: url(img/portfolio-8.jpg);', href='')
+              .details
+                h4 Portfolio 8
+                span Alored dono par
+    //
+      ==========================
+      Testimonials Section
+      ============================
+    section#testimonials
+      .container.wow.fadeInUp
+        .row
+          .col-md-12
+            h3.section-title Testimonials
+            .section-title-divider
+            p.section-description
+              | Erdo lide, nora porodo filece, salvam esse se, quod concedimus ses haec dicturum fuisse
+        .row
+          .col-md-3
+            .profile
+              .pic
+                img(src='img/client-1.jpg', alt='')
+              h4 Saul Goodman
+              span Lawless Inc
+          .col-md-9
+            .quote
+              b
+                img(src='img/quote_sign_left.png', alt='')
+              |  Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. 
+              small
+                img(src='img/quote_sign_right.png', alt='')
+        .row
+          .col-md-9
+            .quote
+              b
+                img(src='img/quote_sign_left.png', alt='')
+              |  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis architecto beatae. 
+              small
+                img(src='img/quote_sign_right.png', alt='')
+          .col-md-3
+            .profile
+              .pic
+                img(src='img/client-2.jpg', alt='')
+              h4 Sara Wilsson
+              span Odeo Inc
+    //
+      ==========================
+      Team Section
+      ============================
+    section#team
+      .container.wow.fadeInUp
+        .row
+          .col-md-12
+            h3.section-title Our Team
+            .section-title-divider
+            p.section-description
+              | Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+        .row
+          .col-md-3
+            .member
+              .pic
+                img(src='img/team-1.jpg', alt='')
+              h4 Walter White
+              span Chief Executive Officer
+              .social
+                a(href='')
+                  i.fa.fa-twitter
+                a(href='')
+                  i.fa.fa-facebook
+                a(href='')
+                  i.fa.fa-google-plus
+                a(href='')
+                  i.fa.fa-linkedin
+          .col-md-3
+            .member
+              .pic
+                img(src='img/team-2.jpg', alt='')
+              h4 Sarah Jhinson
+              span Product Manager
+              .social
+                a(href='')
+                  i.fa.fa-twitter
+                a(href='')
+                  i.fa.fa-facebook
+                a(href='')
+                  i.fa.fa-google-plus
+                a(href='')
+                  i.fa.fa-linkedin
+          .col-md-3
+            .member
+              .pic
+                img(src='img/team-3.jpg', alt='')
+              h4 William Anderson
+              span CTO
+              .social
+                a(href='')
+                  i.fa.fa-twitter
+                a(href='')
+                  i.fa.fa-facebook
+                a(href='')
+                  i.fa.fa-google-plus
+                a(href='')
+                  i.fa.fa-linkedin
+          .col-md-3
+            .member
+              .pic
+                img(src='img/team-4.jpg', alt='')
+              h4 Amanda Jepson
+              span Accountant
+              .social
+                a(href='')
+                  i.fa.fa-twitter
+                a(href='')
+                  i.fa.fa-facebook
+                a(href='')
+                  i.fa.fa-google-plus
+                a(href='')
+                  i.fa.fa-linkedin
+    //
+      ==========================
+      Contact Section
+      ============================
+    section#contact
+      .container.wow.fadeInUp
+        .row
+          .col-md-12
+            h3.section-title Contact Us
+            .section-title-divider
+            p.section-description
+              | Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+        .row
+          .col-md-3.col-md-push-2
+            .info
+              div
+                i.fa.fa-map-marker
+                p
+                  | A108 Adam Street
+                  br
+                  | New York, NY 535022
+              div
+                i.fa.fa-envelope
+                p info@example.com
+              div
+                i.fa.fa-phone
+                p +1 5589 55488 55s
+          .col-md-5.col-md-push-2
+            .form
+              #sendmessage Your message has been sent. Thank you!
+              #errormessage
+              form.contactForm(action='', method='post', role='form')
+                .form-group
+                  input#name.form-control(type='text', name='name', placeholder='Your Name', data-rule='minlen:4', data-msg='Please enter at least 4 chars')
+                  .validation
+                .form-group
+                  input#email.form-control(type='email', name='email', placeholder='Your Email', data-rule='email', data-msg='Please enter a valid email')
+                  .validation
+                .form-group
+                  input#subject.form-control(type='text', name='subject', placeholder='Subject', data-rule='minlen:4', data-msg='Please enter at least 8 chars of subject')
+                  .validation
+                .form-group
+                  textarea.form-control(name='message', rows='5', data-rule='required', data-msg='Please write something for us', placeholder='Message')
+                  .validation
+                .text-center
+                  button(type='submit') Send Message
+    //
+      ==========================
+      Footer
+      ============================
+    footer#footer
+      .container
+        .row
+          .col-md-12
+            .copyright
+              | © Copyright 
+              strong Imperial Theme
+              | . All Rights Reserved
+            .credits
+              //
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Imperial
+              | Bootstrap Themes by 
+              a(href='https://bootstrapmade.com/') BootstrapMade
+    // #footer
+    a.back-to-top(href='#')
+      i.fa.fa-chevron-up
+    // Required JavaScript Libraries
+    script(src='lib/jquery/jquery.min.js')
+    script(src='lib/bootstrap/js/bootstrap.min.js')
+    script(src='lib/superfish/hoverIntent.js')
+    script(src='lib/superfish/superfish.min.js')
+    script(src='lib/morphext/morphext.min.js')
+    script(src='lib/wow/wow.min.js')
+    script(src='lib/stickyjs/sticky.js')
+    script(src='lib/easing/easing.js')
+    // Template Specisifc Custom Javascript File
+    script(src='js/custom.js')
+    script(src='contactform/contactform.js')
+
+    
+    
