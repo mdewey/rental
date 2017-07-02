@@ -17,7 +17,7 @@ router.get('/listings', function(req, res, next) {
   request.get(_url, (error, response, body) => {
     let _json = JSON.parse(body);
     let _apartments = _json.query.results.RDF.item;
-    res.render('listings  ', { title: 'Premiere Rental Properties', data: _apartments, city: _location.city });
+    res.render('listings', { title: 'Premiere Rental Properties', data: _apartments, city: _location.city });
   });
 });
 
