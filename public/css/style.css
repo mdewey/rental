@@ -613,6 +613,10 @@ body.mobile-nav-active {
 * {
   border: 1px pink solid; }
 
+.listings .row {
+  padding: 0;
+  margin: 0; }
+
 .card .thumbnail {
   border-radius: 5px;
   padding: 1em;
