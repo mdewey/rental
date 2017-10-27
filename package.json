@@ -5,6 +5,8 @@
   "scripts": {
     "start": "node ./bin/www",
     "watch": "nodemon ./bin/www",
+    "css":"scss --watch public/css/style.scss:public/css/style.css",
+    "predeploy":"scss public/css/style.scss:public/css/style.css",
     "deploy": "git push heroku master"
   },
   "dependencies": {

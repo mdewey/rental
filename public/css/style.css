@@ -610,6 +610,9 @@ body.mobile-nav-active {
     font-size: 13px;
     color: #ccc; }
 
+* {
+  border: 1px pink solid; }
+
 .card .thumbnail {
   border-radius: 5px;
   padding: 1em;
