@@ -13,3 +13,31 @@
 @import 'nav';
 @import 'sections';
 @import 'footer';
+
+
+.card {
+  
+  .thumbnail {
+    border-radius: 5px;
+    padding:1em;
+    margin:1em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border:1px #CBCBCB solid;
+
+    h4{
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: 2em;
+    }
+    p{
+      padding:0;
+      margin:0;
+      display: flex;
+      justify-content:flex-end;
+      .link{
+        text-transform: uppercase;
+      }
+    }
+  }
+}

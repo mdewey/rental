@@ -5,14 +5,13 @@ block content
         h2.about-title Top Apartments
         div.listings
             .row
-                .col-xs-10.col-xs-offset-1
                 - for (let i = 0; i < data.length; i++)
                     - if (data[i].enclosure)
-                        .col-sm-6.col-md-4
-                        .thumbnail
-                            img(src=data[i].enclosure.resource, alt='apartment picture', style="max-height:6em")
-                            .caption
-                            h4(style="height:5em;")!= data[i].title[0]
-                            //- p.card-description!= data[i].description.substr(0, 250)
-                            p
-                                a.btn.btn-primary(href=data[i].source) More Detail
+                        .col-sm-6.col-md-4.card
+                            .thumbnail
+                                img(src=data[i].enclosure.resource, alt='apartment picture', style="max-height:6em")
+                                .caption
+                                h4!= data[i].title[0]
+                                //- p.card-description!= data[i].description.substr(0, 250)
+                                p
+                                    a.link(href=data[i].source) More Detail
