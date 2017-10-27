@@ -60,3 +60,5 @@ typings/
 
 # dumpster fodler
 ignore
+
+.sass-cache
