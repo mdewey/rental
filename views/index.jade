@@ -2,7 +2,9 @@ extends layout
 
 block content
     section(id="listings")
-        h2.about-title Top Apartments
+       h3.section-title Check out the top apartments 
+            .section-title-divider
+             p.section-description
         div.listings
             .row
                 - for (let i = 0; i < data.length; i++)
