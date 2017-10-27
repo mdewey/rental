@@ -7,7 +7,8 @@
     "watch": "nodemon ./bin/www",
     "css":"scss --watch public/css/style.scss:public/css/style.css",
     "predeploy":"scss public/css/style.scss:public/css/style.css",
-    "deploy": "git push heroku master"
+    "deploy": "git push heroku master",
+    "open":"heroku open"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
